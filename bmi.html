@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<htm>
+    <head>
+        <meta charset="UTF-8">
+        <title>Section 2: Coding Challenge 1</title>
+    </head>
+    <body>
+        <h1>Welcome to the coding challenge 1</h1>
+        
+        <script>
+            var markWeight = prompt("Please enter Mark's Weight in kg");
+            var markHeight = prompt("Please enter Mark's Height in meter");
+            var johnWeight = prompt("Please enter John's weight in kg");
+            var johnHeight = prompt("Please enter John's Height in meter");
+            
+            var markBMI = markWeight/(markHeight*markHeight);
+            
+            var johnBMI = johnWeight/(johnHeight*johnHeight);
+            
+            console.log(markBMI+' mark\'s BMI');
+            console.log(johnBMI+" john's BMI");
+            
+            if(markBMI>johnBMI)
+                console.log("Mark's BMI is more than John's");
+            else
+                console.log("John's BMI is more than Mark's");
+            
+            var falsy;
+            if(falsy)
+                console.log('It\' not a falsy value');
+            else
+                console.log('It\'s falsy); 
+        </script>
+    </body>
+</htm>
